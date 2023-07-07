@@ -1,5 +1,4 @@
 import numpy as np
-import math
 
 def generate_states_vector(map_width, map_height, vels):
     states = np.empty((0, 4), dtype='int')

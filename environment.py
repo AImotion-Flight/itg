@@ -1,5 +1,5 @@
 import numpy as np
-from util import liang_barsky
+from .util import liang_barsky
 
 class GridEnvironment:
     def __init__(self, grid):
